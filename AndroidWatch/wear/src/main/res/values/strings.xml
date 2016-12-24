@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidWatch</string>
+    <string name="passcode">Enter PIN Code</string>
+    <string name="destination">LGA - NAS</string>
+    <string name="time">Depart: 9:30 a.m.</string>
+    <string name="terminal">Terminal C, Gate 10</string>
+    <string name="airline">Delta Airlines</string>
+</resources>
