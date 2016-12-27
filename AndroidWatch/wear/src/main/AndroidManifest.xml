@@ -34,6 +34,9 @@
 
         <activity
             android:name=".HomeScreen"/>
+
+        <activity
+            android:name="com.mik.mac.accounts.AccountsListActivity"/>
     </application>
 
 </manifest>

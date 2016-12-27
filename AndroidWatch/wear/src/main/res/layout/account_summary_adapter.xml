@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/card_default_background"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_box="all">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/imageViewFlag"
+                    android:src="@mipmap/flag_of_kuwait"
+                    android:background="@color/card_default_background" />
+
+
+                <TextView
+                    android:id="@+id/textViewAccountNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="35dp"
+                    android:text="XXXX 87"
+                    android:textSize="11dp"
+                    android:textColor="@color/warbaDarkBlue"/>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aval. Balance :"
+                    android:textSize="10dp"
+                    android:textColor="@color/warbaDarkBlue"
+                    android:layout_below="@id/imageViewFlag"
+                    />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="222 KD"
+                    android:textSize="10dp"
+                    android:textColor="@color/warbaGreen"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/imageViewFlag"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Balance :"
+                    android:textSize="10dp"
+                    android:textColor="@color/warbaDarkBlue"
+                    android:layout_below="@id/textView2"
+                    />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="222 KD"
+                    android:textSize="10dp"
+                    android:textColor="@color/warbaGreen"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/textView3"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+        </FrameLayout>
+</android.support.wearable.view.BoxInsetLayout>

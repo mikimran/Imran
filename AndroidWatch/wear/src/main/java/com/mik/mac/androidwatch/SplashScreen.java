@@ -3,11 +3,12 @@ package com.mik.mac.androidwatch;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.wearable.activity.WearableActivity;
 
 /**
  * Created by mac on 12/23/16.
  */
-public class SplashScreen extends Activity
+public class SplashScreen extends WearableActivity
 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {

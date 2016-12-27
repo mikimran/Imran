@@ -28,7 +28,7 @@ public class WatchMainActivity extends WearableActivity implements  View.OnClick
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_watch_main);
+        setContentView(R.layout.athentication);
         //setAmbientEnabled();
 
 
@@ -43,9 +43,17 @@ public class WatchMainActivity extends WearableActivity implements  View.OnClick
         btn[7] = (Button)findViewById(R.id.button8);
         btn[8] = (Button)findViewById(R.id.button9);
 
+        btn[0].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
+
 
         //register onClick event
-        for(int i =0;i<9;i++){
+        for(int i =0;i<9;i++)
+        {
             btn[i].setOnClickListener(this);
         }
     }
